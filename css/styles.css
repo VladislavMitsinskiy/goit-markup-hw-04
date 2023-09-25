@@ -216,8 +216,13 @@ img {
 }
 
 .icon-head {
-  width: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
+  background-color: var(--color-bottom);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .advantages-header {
