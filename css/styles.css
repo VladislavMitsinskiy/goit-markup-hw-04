@@ -100,7 +100,7 @@ img {
 }
 
 .nav-link {
-  color: var(--color-back);
+  color: var(--color-connection);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
