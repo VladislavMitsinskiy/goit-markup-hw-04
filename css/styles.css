@@ -320,3 +320,43 @@ img {
   letter-spacing: 0.02em;
   width: 264px;
 }
+
+.social-paragraph {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-hero);
+  margin-bottom: 16px;
+}
+
+.bottom-ul {
+  display: flex;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.bottom-li {
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bottom-link {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-logo);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-link:hover,
+.bottom-link:focus {
+  background-color: #31d0aa;
+}
+
+.bottom-icon {
+  fill: var(--color-bottom);
+}
