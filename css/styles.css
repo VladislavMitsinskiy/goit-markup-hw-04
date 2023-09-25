@@ -356,7 +356,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.portfolio-hov:hover {
+.portfolio-paragraph:hover {
   transform: translateY(0%);
 }
 
