@@ -341,6 +341,9 @@ img {
 .portfolio-li:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-li:hover .portfolio-paragraph {
   transform: translateY(0%);
 }
 
@@ -356,9 +359,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.portfolio-paragraph:hover {
-  transform: translateY(0%);
 }
 
 .bottom {
