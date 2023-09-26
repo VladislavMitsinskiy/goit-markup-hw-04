@@ -377,10 +377,6 @@ img {
   overflow: hidden;
 }
 
-/*.overflow-div:hover {
-  transform: translateY(0%);
-}*/
-
 .overflow-div:hover .overflow-paragraph {
   transform: translateY(0%);
 }
@@ -422,6 +418,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-hero);
   margin-bottom: 16px;
+}
+
+.bottom-div {
+  display: flex;
+  align-items: baseline;
 }
 
 .bottom-ul {
