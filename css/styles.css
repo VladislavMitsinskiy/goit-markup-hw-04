@@ -425,6 +425,10 @@ img {
   align-items: baseline;
 }
 
+.logoparagrah-div {
+  margin-right: 120px;
+}
+
 .bottom-ul {
   display: flex;
   gap: 16px;
