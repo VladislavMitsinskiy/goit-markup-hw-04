@@ -372,13 +372,17 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overflow-paragraph:hover {
-  transform: translateY(0%);
-}
-
 .overflow-div {
   position: relative;
   overflow: hidden;
+}
+
+/*.overflow-div:hover {
+  transform: translateY(0%);
+}*/
+
+.overflow-div:hover .overflow-paragraph {
+  transform: translateY(0%);
 }
 
 .bottom {
