@@ -119,7 +119,7 @@ img {
   height: 4px;
   background-color: var(--color-connection);
   border-radius: 2px;
-  width: 100px;
+  width: 100%;
 }
 
 .nav-link:hover,
