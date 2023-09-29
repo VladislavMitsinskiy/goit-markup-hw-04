@@ -119,6 +119,7 @@ img {
   height: 4px;
   background-color: var(--color-connection);
   border-radius: 2px;
+  width: 100px;
 }
 
 .nav-link:hover,
@@ -156,7 +157,7 @@ img {
   padding: 188px 0;
   margin: 0 auto;
   max-width: 1440px;
-  background-image: url("/images/peopleoffice.jpg");
+  /*background-image: url("../images/peopleoffice.jpg");*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -164,7 +165,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/peopleoffice.jpg);
+    url(../images/peopleoffice.jpg);
 }
 
 .hero-header {
